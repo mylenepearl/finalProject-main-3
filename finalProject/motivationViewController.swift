@@ -27,6 +27,11 @@ class motivationViewController: UIViewController {
     }
     */
     @IBAction func randomQuote(_ sender: Any) {
+        
+        let array = ["Fall seven times, get up eight", "Growth is growth, no matter how small", "I am excited to learn something new today", "I am where I need to be right now","With each step you take, you will grow stronger","Keep going, you may be almost there without even knowing"]
+        label.text = array.randomElement()
+                     
+
     }
     
 }
