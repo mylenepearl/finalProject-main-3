@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140A79A126AA10F80004455D /* motivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A79A026AA10F80004455D /* motivationViewController.swift */; };
+		140A79A326AA154F0004455D /* serotonin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A79A226AA154F0004455D /* serotonin.swift */; };
 		CCAE1CE326A76ABE00A5084F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE226A76ABE00A5084F /* AppDelegate.swift */; };
 		CCAE1CE526A76ABE00A5084F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE426A76ABE00A5084F /* SceneDelegate.swift */; };
 		CCAE1CE726A76ABE00A5084F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE626A76ABE00A5084F /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140A79A026AA10F80004455D /* motivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationViewController.swift; sourceTree = "<group>"; };
+		140A79A226AA154F0004455D /* serotonin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serotonin.swift; sourceTree = "<group>"; };
 		CCAE1CDF26A76ABE00A5084F /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAE1CE226A76ABE00A5084F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCAE1CE426A76ABE00A5084F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				CCAE1CF026A76AC500A5084F /* LaunchScreen.storyboard */,
 				CCAE1CF326A76AC500A5084F /* Info.plist */,
 				CCAE1CEB26A76ABE00A5084F /* finalProject.xcdatamodeld */,
+				140A79A226AA154F0004455D /* serotonin.swift */,
+				140A79A026AA10F80004455D /* motivationViewController.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140A79A126AA10F80004455D /* motivationViewController.swift in Sources */,
 				CCAE1CE726A76ABE00A5084F /* ViewController.swift in Sources */,
 				CCAE1CE326A76ABE00A5084F /* AppDelegate.swift in Sources */,
 				CCAE1CED26A76ABE00A5084F /* finalProject.xcdatamodeld in Sources */,
 				CCAE1CE526A76ABE00A5084F /* SceneDelegate.swift in Sources */,
+				140A79A326AA154F0004455D /* serotonin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
