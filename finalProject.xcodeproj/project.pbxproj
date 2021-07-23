@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		140A79A126AA10F80004455D /* motivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A79A026AA10F80004455D /* motivationViewController.swift */; };
 		140A79A326AA154F0004455D /* serotonin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A79A226AA154F0004455D /* serotonin.swift */; };
+		140A79A526AA3DBD0004455D /* braindumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140A79A426AA3DBD0004455D /* braindumpViewController.swift */; };
+		140A79BE26AA41A00004455D /* 105.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 140A79B526AA419F0004455D /* 105.JPG */; };
+		140A79BF26AA41A00004455D /* 102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79B626AA419F0004455D /* 102.jpg */; };
+		140A79C026AA41A00004455D /* 106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79B726AA419F0004455D /* 106.jpg */; };
+		140A79C126AA41A00004455D /* 104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79B826AA419F0004455D /* 104.jpg */; };
+		140A79C226AA41A00004455D /* 103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79B926AA419F0004455D /* 103.jpg */; };
+		140A79C326AA41A00004455D /* 109.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79BA26AA419F0004455D /* 109.jpg */; };
+		140A79C426AA41A00004455D /* 108.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 140A79BB26AA41A00004455D /* 108.JPG */; };
+		140A79C526AA41A00004455D /* 107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 140A79BC26AA41A00004455D /* 107.jpg */; };
+		140A79C626AA41A00004455D /* 110.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 140A79BD26AA41A00004455D /* 110.JPG */; };
 		CCAE1CE326A76ABE00A5084F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE226A76ABE00A5084F /* AppDelegate.swift */; };
 		CCAE1CE526A76ABE00A5084F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE426A76ABE00A5084F /* SceneDelegate.swift */; };
 		CCAE1CE726A76ABE00A5084F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAE1CE626A76ABE00A5084F /* ViewController.swift */; };
@@ -40,6 +50,16 @@
 /* Begin PBXFileReference section */
 		140A79A026AA10F80004455D /* motivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationViewController.swift; sourceTree = "<group>"; };
 		140A79A226AA154F0004455D /* serotonin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serotonin.swift; sourceTree = "<group>"; };
+		140A79A426AA3DBD0004455D /* braindumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braindumpViewController.swift; sourceTree = "<group>"; };
+		140A79B526AA419F0004455D /* 105.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 105.JPG; path = "../../../serotonin!/105.JPG"; sourceTree = "<group>"; };
+		140A79B626AA419F0004455D /* 102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 102.jpg; path = "../../../serotonin!/102.jpg"; sourceTree = "<group>"; };
+		140A79B726AA419F0004455D /* 106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 106.jpg; path = "../../../serotonin!/106.jpg"; sourceTree = "<group>"; };
+		140A79B826AA419F0004455D /* 104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 104.jpg; path = "../../../serotonin!/104.jpg"; sourceTree = "<group>"; };
+		140A79B926AA419F0004455D /* 103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 103.jpg; path = "../../../serotonin!/103.jpg"; sourceTree = "<group>"; };
+		140A79BA26AA419F0004455D /* 109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 109.jpg; path = "../../../serotonin!/109.jpg"; sourceTree = "<group>"; };
+		140A79BB26AA41A00004455D /* 108.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 108.JPG; path = "../../../serotonin!/108.JPG"; sourceTree = "<group>"; };
+		140A79BC26AA41A00004455D /* 107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 107.jpg; path = "../../../serotonin!/107.jpg"; sourceTree = "<group>"; };
+		140A79BD26AA41A00004455D /* 110.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 110.JPG; path = "../../../serotonin!/110.JPG"; sourceTree = "<group>"; };
 		CCAE1CDF26A76ABE00A5084F /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAE1CE226A76ABE00A5084F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCAE1CE426A76ABE00A5084F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140A79A626AA40570004455D /* Serotonin pics */ = {
+			isa = PBXGroup;
+			children = (
+				140A79B626AA419F0004455D /* 102.jpg */,
+				140A79B926AA419F0004455D /* 103.jpg */,
+				140A79B826AA419F0004455D /* 104.jpg */,
+				140A79B526AA419F0004455D /* 105.JPG */,
+				140A79B726AA419F0004455D /* 106.jpg */,
+				140A79BC26AA41A00004455D /* 107.jpg */,
+				140A79BB26AA41A00004455D /* 108.JPG */,
+				140A79BA26AA419F0004455D /* 109.jpg */,
+				140A79BD26AA41A00004455D /* 110.JPG */,
+			);
+			path = "Serotonin pics";
+			sourceTree = "<group>";
+		};
 		CCAE1CD626A76ABE00A5084F = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +141,7 @@
 		CCAE1CE126A76ABE00A5084F /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				140A79A626AA40570004455D /* Serotonin pics */,
 				CCAE1CE226A76ABE00A5084F /* AppDelegate.swift */,
 				CCAE1CE426A76ABE00A5084F /* SceneDelegate.swift */,
 				CCAE1CE626A76ABE00A5084F /* ViewController.swift */,
@@ -115,6 +152,7 @@
 				CCAE1CEB26A76ABE00A5084F /* finalProject.xcdatamodeld */,
 				140A79A226AA154F0004455D /* serotonin.swift */,
 				140A79A026AA10F80004455D /* motivationViewController.swift */,
+				140A79A426AA3DBD0004455D /* braindumpViewController.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -240,9 +278,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140A79C626AA41A00004455D /* 110.JPG in Resources */,
+				140A79BE26AA41A00004455D /* 105.JPG in Resources */,
 				CCAE1CF226A76AC500A5084F /* LaunchScreen.storyboard in Resources */,
+				140A79C226AA41A00004455D /* 103.jpg in Resources */,
+				140A79C326AA41A00004455D /* 109.jpg in Resources */,
 				CCAE1CEF26A76AC500A5084F /* Assets.xcassets in Resources */,
+				140A79C126AA41A00004455D /* 104.jpg in Resources */,
+				140A79C026AA41A00004455D /* 106.jpg in Resources */,
+				140A79C426AA41A00004455D /* 108.JPG in Resources */,
 				CCAE1CEA26A76ABE00A5084F /* Main.storyboard in Resources */,
+				140A79BF26AA41A00004455D /* 102.jpg in Resources */,
+				140A79C526AA41A00004455D /* 107.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140A79A126AA10F80004455D /* motivationViewController.swift in Sources */,
+				140A79A526AA3DBD0004455D /* braindumpViewController.swift in Sources */,
 				CCAE1CE726A76ABE00A5084F /* ViewController.swift in Sources */,
 				CCAE1CE326A76ABE00A5084F /* AppDelegate.swift in Sources */,
 				CCAE1CED26A76ABE00A5084F /* finalProject.xcdatamodeld in Sources */,

@@ -1,5 +1,5 @@
 //
-//  serotonin.swift
+//  braindumpViewController.swift
 //  finalProject
 //
 //  Created by Mylene Maranan on 7/22/21.
@@ -7,34 +7,15 @@
 
 import UIKit
 
-class serotonin: UIViewController {
-    
-    @IBOutlet weak var animalImage: UIImageView!
-    
-    //add all pic names from image folder to an array
-    let serotoninImages = [
-    "102",
-    "103",
-    "104",
-    "105",
-    "106",
-    "107",
-    "108",
-    "109",
-    "110"
-    ]
-    
+class braindumpViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func pickButtonAction(_ sender: Any) {
-        //get random photo from the array and show on screen
-        animalImage.image = UIImage(named: serotoninImages.randomElement()!)
-    }
-    
+
     /*
     // MARK: - Navigation
 
