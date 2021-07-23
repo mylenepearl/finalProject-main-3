@@ -137,11 +137,6 @@
                                     <segue destination="op6-X5-FeW" kind="presentation" modalPresentationStyle="fullScreen" id="bgh-N5-gAa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGH-qm-PNL">
-                                <rect key="frame" x="28" y="669" width="363" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="IMG_5752 3"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg6-T9-8B7">
                                 <rect key="frame" x="191" y="150" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -158,13 +153,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="motivation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYW-ba-nDO">
                                 <rect key="frame" x="145" y="301" width="124" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="brain dump" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-Mu-Vws">
-                                <rect key="frame" x="154" y="703" width="135" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
                                 <nil key="textColor"/>
@@ -308,10 +296,10 @@
             </objects>
             <point key="canvasLocation" x="2926.0869565217395" y="87.723214285714278"/>
         </scene>
-        <!--Serotonin-->
+        <!--Seretonin View Controller-->
         <scene sceneID="4dR-Ul-54T">
             <objects>
-                <viewController id="op6-X5-FeW" customClass="serotonin" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="op6-X5-FeW" customClass="seretoninViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4A2-or-JJn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -323,22 +311,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utd-XX-PzA">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utd-XX-PzA">
                                 <rect key="frame" x="162" y="600" width="94" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
                                 <state key="normal" title="click here!"/>
                                 <connections>
+                                    <action selector="clickForSerotoninImage:" destination="op6-X5-FeW" eventType="touchUpInside" id="9XZ-aY-efC"/>
                                     <action selector="pickButtonAction:" destination="op6-X5-FeW" eventType="touchUpInside" id="rGU-Sc-74v"/>
                                     <action selector="randomQuote:" destination="5id-dl-oO6" eventType="touchUpInside" id="eId-6g-c3e"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bIR-qs-s40">
-                                <rect key="frame" x="87" y="273" width="240" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="bFc-Oa-Npt"/>
-                                    <constraint firstAttribute="width" constant="250" id="jaK-rf-fH6"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWu-54-O2V">
                                 <rect key="frame" x="192" y="693" width="34" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -347,27 +330,22 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gjK-jw-pAe" kind="presentation" modalPresentationStyle="fullScreen" id="3IS-Pd-Q5P"/>
+                                    <segue destination="2l5-no-9s6" kind="presentation" modalPresentationStyle="fullScreen" id="ED5-4h-Zdt"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="104" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-S4-0Y3">
+                                <rect key="frame" x="0.0" y="289" width="357" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eIV-wH-nQX"/>
                         <color key="backgroundColor" red="0.99949330089999999" green="1" blue="0.7984242439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="bIR-qs-s40" firstAttribute="top" secondItem="utd-XX-PzA" secondAttribute="bottom" constant="100" id="Vfy-36-f7j"/>
-                            <constraint firstItem="bIR-qs-s40" firstAttribute="leading" secondItem="eIV-wH-nQX" secondAttribute="leading" constant="100" id="b62-0J-10g"/>
-                            <constraint firstItem="eIV-wH-nQX" firstAttribute="bottom" secondItem="bIR-qs-s40" secondAttribute="bottom" constant="100" id="hLl-hh-mFm"/>
-                            <constraint firstItem="eIV-wH-nQX" firstAttribute="trailing" secondItem="bIR-qs-s40" secondAttribute="trailing" constant="100" id="rWB-RE-liG"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kbD-3Z-Dei"/>
-                    <connections>
-                        <outlet property="animalImage" destination="bIR-qs-s40" id="HbD-Xa-N6O"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3O-HT-uw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3606" y="88"/>
+            <point key="canvasLocation" x="3605.7971014492755" y="87.723214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BWa-mq-6Nf">
@@ -390,15 +368,6 @@
                     <view key="view" contentMode="scaleToFill" id="17f-p1-8Gn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="brain dump" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCb-Ba-E25">
-                                <rect key="frame" x="112" y="169" width="191" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Italic" family="Optima" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4i4-mY-mWE"/>
                         <color key="backgroundColor" red="0.99945670369999995" green="1" blue="0.77766984699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -441,9 +410,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3IS-Pd-Q5P"/>
+        <segue reference="9tS-PD-tV7"/>
+        <segue reference="p6N-Xy-cGZ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="104" width="721" height="721"/>
         <image name="9EA23576-6F83-45E4-B935-C502B251A34C" width="425" height="393"/>
         <image name="IMG-5702" width="725" height="542"/>
         <image name="IMG-5703 (1)" width="487" height="539"/>
