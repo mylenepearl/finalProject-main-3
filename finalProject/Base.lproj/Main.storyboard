@@ -254,7 +254,7 @@
             <objects>
                 <viewController id="2l5-no-9s6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aj5-Bd-6bd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="self-care menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ox-NE-cdr">
@@ -334,7 +334,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="104" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-S4-0Y3">
-                                <rect key="frame" x="0.0" y="289" width="357" height="268"/>
+                                <rect key="frame" x="31" y="294" width="357" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -410,7 +410,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9tS-PD-tV7"/>
+        <segue reference="ED5-4h-Zdt"/>
         <segue reference="p6N-Xy-cGZ"/>
     </inferredMetricsTieBreakers>
     <resources>
