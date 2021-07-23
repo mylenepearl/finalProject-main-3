@@ -73,6 +73,9 @@
                                 <rect key="frame" x="143" y="269" width="138" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="IMG-5702"/>
+                                <connections>
+                                    <segue destination="lWJ-oO-jhr" kind="presentation" modalPresentationStyle="fullScreen" id="34Y-s4-ejT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e99-cE-yEM">
                                 <rect key="frame" x="143" y="448" width="126" height="124"/>
@@ -119,7 +122,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="IMG_5753 3"/>
                                 <connections>
-                                    <segue destination="2l5-no-9s6" kind="show" id="9tS-PD-tV7"/>
+                                    <segue destination="2l5-no-9s6" kind="presentation" modalPresentationStyle="fullScreen" id="9tS-PD-tV7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="self-care menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgr-ye-zfZ">
@@ -165,6 +168,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="doodle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghw-OL-zpw">
+                                <rect key="frame" x="186" y="728" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="0.0"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcD-oA-FHE">
+                                <rect key="frame" x="165" y="720" width="70" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7pJ-9Y-H4s" kind="presentation" modalPresentationStyle="fullScreen" id="0yw-m7-M4j"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="epy-vb-PzE"/>
                         <color key="backgroundColor" red="0.9995083213" green="1" blue="0.80671310419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -323,14 +343,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWu-54-O2V">
-                                <rect key="frame" x="192" y="693" width="34" height="57"/>
+                                <rect key="frame" x="162" y="693" width="64" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="←">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2l5-no-9s6" kind="presentation" modalPresentationStyle="fullScreen" id="ED5-4h-Zdt"/>
+                                    <segue destination="gjK-jw-pAe" kind="presentation" modalPresentationStyle="fullScreen" id="Lke-VW-S7H"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="104" translatesAutoresizingMaskIntoConstraints="NO" id="S8w-S4-0Y3">
@@ -368,13 +388,31 @@
                     <view key="view" contentMode="scaleToFill" id="17f-p1-8Gn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="July-2021-calendar-b5" translatesAutoresizingMaskIntoConstraints="NO" id="ULm-fh-Za2">
+                                <rect key="frame" x="-667" y="228" width="1749" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TN0-rr-a3O">
+                                <rect key="frame" x="139" y="669" width="136" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="←">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7pJ-9Y-H4s" kind="presentation" modalPresentationStyle="fullScreen" id="czL-y2-S15"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4i4-mY-mWE"/>
                         <color key="backgroundColor" red="0.99945670369999995" green="1" blue="0.77766984699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Dga-IY-4oT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QK4-MR-lO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4290" y="88"/>
+            <point key="canvasLocation" x="4288.4057971014499" y="87.723214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FVz-S3-UQj">
@@ -410,8 +448,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ED5-4h-Zdt"/>
-        <segue reference="p6N-Xy-cGZ"/>
+        <segue reference="9tS-PD-tV7"/>
+        <segue reference="bQx-g9-Z5w"/>
+        <segue reference="czL-y2-S15"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="104" width="721" height="721"/>
@@ -425,6 +464,7 @@
         <image name="IMG_5752 3" width="925" height="272"/>
         <image name="IMG_5753 3" width="918" height="267"/>
         <image name="IMG_5783-1" width="547" height="483"/>
+        <image name="July-2021-calendar-b5" width="1749" height="1315"/>
         <image name="brain" width="512" height="405"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
